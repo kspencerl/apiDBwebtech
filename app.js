@@ -107,6 +107,6 @@ app.get('/', (req, res) => res.send('Página inicial'));
 
 //Iniciando o app informando passando a porta de escuta
 app.listen(PORT, () => {
-    console.log(`Listening to http://localhost:${PORT}`); //o app está em funcionamento e pronto para receber solicitações por essa porta
+    console.log(`Listening on port ${PORT}`); //o app está em funcionamento e pronto para receber solicitações por essa porta
 });
 
